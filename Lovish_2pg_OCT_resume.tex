@@ -1,0 +1,257 @@
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+\usepackage{array}
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=0.85]{geometry} % Reduce document margins
+
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Lovish} % Your first name
+\familyname{Mehta} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+
+\address{H.No. 709, Sec-5,Urban Estate, Kurukshetra-136118}{Haryana, India}
+\mobile{+91 9517732414}
+\email{mehtalovish76@gmail.com}
+
+\photo[80pt][0.5pt]{picture.JPEG} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+
+%----------------------------------------------------------------------------------------
+%	CURRICULUM VITAE
+%----------------------------------------------------------------------------------------
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	CAREER OBJECTIVE
+%----------------------------------------------------------------------------------------
+
+\section{Career Objective}
+
+\cventry{}{To serve the Nation}{in a dynamic and professional environment that will allow my enthusiasm, self-motivation \& sense of dedication to get explored \& utilized towards the development of Technology }{}{}{}  % Arguments not required can be left empty
+
+\cventry{}{To have Clarity in Mind, Purity in Heart, Sincerity in Action}{and to work for the Betterment of Organization and Nation}{}{}{}  % Arguments not required can be left empty
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}}
+ \begin{tabular}{|P{3cm}|P{4.5cm}|P{3.5cm}|P{3cm}|P{3cm}|}
+
+   \hline
+  
+    \textbf {Degree} & \textbf { College/School} & \textbf {University} & \textbf {Passing Year} & \textbf { Pass Percentage} \\ \hline
+	
+    Sem 1 to 6(EXC)  &Chandigarh University & Chandigarh University & 2020 & 7.71/10  \\ \hline
+    H.S.C (12th) & Maharana Pratap Public School  & CBSE & April, 2016  & 71.2/100  \\ \hline
+    S.S.C (10th) &Maharana Pratap Public Schoo  & CBSE & March, 2014 & 9.6/10  \\  \hline
+
+  \end{tabular}
+  \newline\newline
+  \textbf{EXC => Electronics \& Communication}
+
+
+
+%----------------------------------------------------------------------------------------
+%	PROJECTS
+%----------------------------------------------------------------------------------------
+
+\section{Projects}
+
+
+\begin{enumerate}
+
+\item \textbf{ Bootloader for ATMEGA2560 Controller} \textit{ (July 2019- Present) }
+\begin{itemize}
+\item Making a basic bootloader for AVR Controller ATMEGA2560. The bootloader should enable the controller to receive data serially without the help of special programmer
+\newline
+\end{itemize}
+
+\item \textbf{ Automatic Testbench Kit For testing Sensors and Controllers} \textit{ (May 2019- July 2019) }
+\begin{itemize}
+\item The prime motive of this project was to develop a Testbench Kit for testing and validating electronic devices/modules. The user should be able to test all kinds of sensors and Avr controllers. I also made PCBs for the TestBench kit.
+\newline
+\end{itemize}
+
+\item \textbf{ AVR Atmega 2560 USART and I2C Libraries} \textit{ (June 2019- June 2019) }
+\begin{itemize}
+\item Worked and made USART(Universal Synchronous/Asynchronous Receiver/Transmitter) and I2C (Inter-Integrated Circuit) libraries for AVR controller Atmega 2560 using Embedded C.
+\newline
+\end{itemize}
+
+\item \textbf{eYantra-2018 (MHRD Sponsored, National Level Robotics Competition)}, \newline\textit{Theme: Thirsty Crow }  ----- \textbf{\textit{4th Position}}       \textit{ (Aug 2018- Mar 2019) }
+\begin{itemize}
+\item Interfaced IR sensors ,motors, encoders and Xbee module with ATMEGA2560 microcontroller and wrote code for line following in embedded C.
+\item Designed Orientation Algorithm which helped the bot to decide which direction to face after reaching the destination.
+\newline
+\end{itemize}
+
+\item \textbf{PCB (for Air Pollution Monitior)},  \textit{ (Dec 2018- Jan 2019) }
+\begin{itemize}
+\item Designed two PCB's for the prototype of the Air Pollution Monitor. The PCB had connection for 1.8 TFT screen, Atmega328p micro-controller, PMS sensor, Charging circuit, Voltage
+booster circuit etc.
+\newline
+\end{itemize}
+
+\item \textbf{Air Pollution Monitor},     \textit{ (June 2018 - July 2018) }
+\begin{itemize}
+\item Interfaced Various sensors like BME-280,CCS811,PMS7003,Telaire T6700 with Atmega328p microcontroller.
+\item Used various communication protocols such as I2C, UART and SPI.
+\item Worked on the graphics of TFT screen and interfaced it with  Atmega328p.
+\newline
+\end{itemize}
+
+\item \textbf{Line Imitator}   \textit{ (Mar 2018 - Apr 2018) }
+\begin{itemize}
+\item The project included interfacing of Arduino Atmega2560 with IR sensors and DC motors together to follow the white line on black surface.
+\newline
+\end{itemize}
+
+\item \textbf{IARC} \textit{IARC bot performed three major functions:}  \textit{ (Janr 2018 - Mar 2018) }
+\begin{itemize}
+\item Wall following, Line following, Color Recognition 
+\end{itemize}
+
+
+
+\end{enumerate}
+
+
+%----------------------------------------------------------------------------------------
+%	TRAINING & INTERNSHIPS
+%----------------------------------------------------------------------------------------
+
+
+\section{ Internships}
+
+\begin{itemize}
+
+\item Worked as an intern at\textit{\textbf{ IIT BOMBAY}}, under  Dr. Kavi Arya  \textit{ (Mumbai, Powai,  May 2019- July 2019) } \newline
+
+\item Worked as an intern at\textit{\textbf{ Aerogram} (IIT Delhi)} \textit{ (Delhi, Dec 2018- Jan 2019) } \newline
+
+\item Worked as an intern at\textit{\textbf{ Phase Labs }(IIT Delhi)} \textit{ (Delhi, June 2018- July 2018) } \newline
+
+\item Worked as an intern at\textit{\textbf{ HBeonlabs Technologies Pvt. Ltd.}} \textit{( Greater Noida, May 2018- June 2018) } \newline
+
+
+\end{itemize}
+
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL SKILLS
+%----------------------------------------------------------------------------------------
+
+
+\section{Technical Skills}
+
+\begin{itemize}
+\item\textbf{\underline{Programming Languages Known}}: C, C++, Embedded C, Data Structures \newline
+
+\item \textbf{\underline{Software worked with}}:  Atmel Studio4, Dev C++,  Latex, Kicad, Eagle, Matlab, Arduino-IDE and MS-Office.  \newline
+
+\item \textbf{\underline{Hardware Familiar with}}: 8085, 8051, Atmega 328 and Atmega 2560 
+
+\end {itemize}
+
+
+%----------------------------------------------------------------------------------------
+%	SOFT SKILLS
+%----------------------------------------------------------------------------------------
+
+
+\section{Soft Skills}
+\begin{itemize}
+\item Leadership              
+\item Teamwork
+\item Problem Solving
+\item Dedicated
+\item Able to work in a busy and varied atmosphere
+\end {itemize}
+
+%----------------------------------------------------------------------------------------
+%	EXTRA-CURRICULAR ACTIVITIES
+%----------------------------------------------------------------------------------------
+
+
+\section{Achievements}
+
+\begin{itemize}
+\item Won 1st  prize in Line Imitator Competition at IIT Ropar.
+
+
+
+\item Won 1st prize in inter department Abdul Kalam innovation Competition- 2017,Chandigarh University,Chandigarh.
+\item Won 1st prize in inter department Abdul Kalam innovation Competition- 2018,Chandigarh University,Chandigarh.
+\item Won 2nd prize for presenting Remote Controlled Hydraulic Arm on occassion of Engineers Day,
+Chandigarh University.
+\item Won 3rd prize in inter department Abdul Kalam innovation Competition- 2019,Chandigarh University,Chandigarh.
+
+\item Secured 4th position in eYRC-2018, a National Level Robotics competition organized by MHRD and IIT Bombay.
+\end {itemize}
+
+
+
+
+%----------------------------------------------------------------------------------------
+%	PERSONAL DETAILS
+%----------------------------------------------------------------------------------------
+
+
+\section{Personal Details}
+Father's Name: Sanjay Kumar 	\hspace{3.35cm}		Mother's Name: Sarita \\
+Sex: Male 				\hspace{6.35cm}		Date Of Birth: 10 September 1998 \\
+Nationality: Indian			\hspace{5.08cm}		Marital Status: Single
+
+
+%----------------------------------------------------------------------------------------
+%	REFERENCE
+%----------------------------------------------------------------------------------------
+
+
+\section{Reference}
+\textbf{Tanmay Bunkar},                          \hspace{5.06cm}                   \textbf{Sarita Ahlawat} , (BIRAC BIG Innovator) \\                                                                                    
+Founder and Director Botlab Dynamics,     \hspace{1.8cm}      Founder and Director Phase Laboratories,  \\                                                        
+TBIU ,IIT Delhi,                                          \hspace{5.21cm}     TBIU ,IIT Delhi,   \\                  
+South West Delhi, Delhi                                \hspace{4.1cm}     South West Delhi, Delhi   \\                
+\mobilesymbol 9650184946                            \hspace{5.5cm}  \mobilesymbol 9711491975  \\    
+\emailsymbol \href{mailto: tbunkar@gmail.com}{\nolinkurl{ tbunkar@gmail.com} } \hspace{4cm} \emailsymbol \href{mailto: phaselaboratories@gmail.com}{\nolinkurl{ phaselaboratories@gmail.com} }
+
+
+%----------------------------------------------------------------------------------------
+%	DECLARATION
+%----------------------------------------------------------------------------------------
+
+
+\section{Declaration}
+ I declare that the information mentioned here in my resume is correct and complete to the best of my knowledge and nothing has been concealed or distorted. 
+If at any time I am found to have concealed / distorted any material information, my appointment shall be liable for termination without notice or compensation. \\
+
+
+\textbf{DATE: 20 Oct 2019}
+
+\end{document}
